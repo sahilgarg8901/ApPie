@@ -43,7 +43,9 @@ class MainActivity : AppCompatActivity() {
         val data = PieData(dataSet)
         pieChart.data = data
 
-         pieChart.legend.form = Legend.LegendForm.CIRCLE
+        pieChart.legend.form = Legend.LegendForm.CIRCLE
+        pieChart.legend.position = Legend.LegendPosition.BELOW_CHART_LEFT
+
         pieChart.invalidate()
 
     }

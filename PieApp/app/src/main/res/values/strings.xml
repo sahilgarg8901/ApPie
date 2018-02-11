@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pie-App</string>
+    <string name="app_name">ApPie</string>
     <string name="pieChart">Pie Chart</string>
     <string name="descrptn">Marks in Subjects by Students</string>
 </resources>
