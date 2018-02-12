@@ -56,7 +56,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:onClick="goodBtnClicked"
         android:text="@string/good"
         android:textAllCaps="false"
