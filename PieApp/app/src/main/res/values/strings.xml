@@ -3,4 +3,5 @@
     <string name="pieChart">Pie Chart</string>
     <string name="descrptn">Marks in Subjects by Students</string>
     <string name="good">GOOD</string>
+    <string name="hint2">Adjust Value</string>
 </resources>
