@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         pieChart.setCenterTextColor(Color.CYAN)
         pieChart.setDrawEntryLabels(true)
         pieChart.setEntryLabelTextSize(15f)
+        pieChart.setBackgroundColor(Color.BLUE)
 
         pieChart.legend.form = Legend.LegendForm.SQUARE
         if (savedInstanceState != null) {
@@ -67,6 +68,9 @@ class MainActivity : AppCompatActivity() {
             FloatValue.text = null
             createPie()
         }
+    }
+    fun ColorBtnClicked(view: View) {
+
     }
     private fun createPie(){
 
